@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 40px 10px 40px
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 80px);
+    height: 70px;
+    gap: 30px;
+}
+
+.header-get {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-other {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.markdown {
+    display: flex;
+    height: calc(100vh - 140px);
+    width: calc(100vw - 80px);
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+
+.submit {
+    display: flex;
+    /* 设置容器为 flex 布局 */
+    justify-content: flex-end;
+    /* 在主轴上居中对齐 */
+    align-items: center;
+    /* 在交叉轴上居中对齐 */
+    flex-direction: row;
+    width: calc(100vw - 80px);
+    height: 70px;
+    gap: 20px;
+}
+
+.custom-width {
+    width: 100px;
+}
+
+.custom-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.custom-height {
+    height: 40px;
+}
+
+
+.custom-bg-1 {
+    background-color: rgb(48, 197, 48);
+}
+
+.custom-input-style {
+    border-radius: 10px;
+    border-color: rgb(102, 102, 102);
+    border-width: 1px;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
